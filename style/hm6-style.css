@@ -1,0 +1,106 @@
+.customers {
+    width: 1170px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.customers-header__title {
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    text-align: center;
+    font-family: Raleway;
+    line-height: 150px;
+    font-size: 36px; 
+}
+.customers-header__separator {
+    width: 170px;
+    border: .5px solid #EC7979;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.customers-header__subtitle {
+    color: #86878B;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 79px;
+}
+.customers-boxes {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.customers-items {
+    width: 370px;
+    height: 180px;
+    border-radius: 10px;
+    background: #E2E2E2;
+    
+}
+.customers-items__title {
+    color: #86878B;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 38px;
+    position: relative;
+}
+.customers-items__img {
+    position: absolute;
+    fill: #E2E2E2;
+    width: 370px;
+    height: 75px;
+    margin-left: -93px;
+}
+.customers-manager {
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+.customers-manager {
+    position: relative;
+}
+.customers-lists1 {
+    position: relative;
+}
+.customers-lists2 {
+    position: relative;
+    left: 130px;
+}
+.customers-lists3 {
+    position: relative;
+    left: 260px;
+}
+.customers-lists__img {
+    position: absolute;
+    top: 66px;
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+}
+.customers-lists__name {
+    display: flex;
+    width: 269px;
+    height: 54px;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+    position: absolute;
+    left: 100px;
+    top: 66px;
+}
+.customers-lists__position {
+    width: 270px;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    top: 135px;
+    left: 100px;
+}
