@@ -1,0 +1,50 @@
+.design {
+    background-image: url('/img/image.png');
+    width: 1170px;
+    height: 442px;
+    margin: auto;
+}
+.design-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: flex;
+    height: 150px;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+}
+.design-separator {
+    width: 170px;
+    border: .5px solid #ffffff;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.design-subtitle {
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 73px;
+}
+.design-btn {
+    color: #FFF;
+text-align: center;
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 600;
+text-transform: capitalize;
+display: flex;
+width: 370px;
+height: 58px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background: none;
+border: 1px solid white;
+margin-left: 400px;
+}

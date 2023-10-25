@@ -1,0 +1,34 @@
+.header-wrapper {
+    height: 75px;
+    background: #000;
+    width: 100%;
+}
+.header {
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+.header-logo__img {
+    width: 183.099px;
+    height: 74.854px;
+    padding-left: 115.28px;
+}
+.header-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 170px;
+}
+.header-nav__item {
+    width: 113.799px;
+    height: 75px;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #FFF;
+    line-height: 75px;
+}
