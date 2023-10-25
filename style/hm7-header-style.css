@@ -8,6 +8,7 @@
     margin: auto;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 .header-logo__img {
     width: 183.099px;
@@ -18,7 +19,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-left: 170px;
 }
 .header-nav__item {
     width: 113.799px;

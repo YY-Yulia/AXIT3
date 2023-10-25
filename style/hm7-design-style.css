@@ -1,10 +1,10 @@
 .design {
-    background-image: url('/img/image.png');
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/image.png');
     width: 1170px;
     height: 442px;
     margin: auto;
 }
-.design-title {
+.design__title {
     color: #FFF;
     text-align: center;
     font-family: Raleway;
@@ -17,13 +17,13 @@
     justify-content: center;
     padding-top: 50px;
 }
-.design-separator {
+.design__separator {
     width: 170px;
     border: .5px solid #ffffff;
     margin: auto;
     margin-bottom: 40px;
 }
-.design-subtitle {
+.design__subtitle {
     color: #FFF;
     text-align: center;
     font-family: Raleway;
@@ -31,7 +31,7 @@
     font-weight: 400;
     padding-bottom: 73px;
 }
-.design-btn {
+.design__btn {
     color: #FFF;
 text-align: center;
 font-family: Open Sans;
