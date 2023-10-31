@@ -32,3 +32,32 @@
     color: #FFF;
     line-height: 75px;
 }
+
+@media screen and (max-width: 1200px) {
+    .header {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 910px) {
+    .header {
+        flex-direction: column;
+        padding-bottom: 180px;
+    }
+    .header-wrapper {
+        height: 100%;
+        margin: auto;
+    }
+    .header-nav {
+        flex-direction: column;
+        margin: auto;
+    }
+    .header-logo {
+        display: flex;
+        align-items: flex-start;
+    }
+    .header-logo__img {
+        padding-left: 5px;
+        
+    }
+}

@@ -24,3 +24,24 @@
     font-weight: 400;
     margin-top: 25.8px;
 }
+
+@media screen and (max-width: 1200px) {
+    .footer {
+        width: 95%;
+    }
+    .footer-icons__img {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media screen and (max-width: 910px) {
+    .footer-icons__img {
+        width: 26px;
+        height: 26px;
+        padding-left: 10px;
+    }
+    .footer__subtitle {
+        font-size: 14px;
+    }
+}

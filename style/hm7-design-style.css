@@ -48,3 +48,12 @@
     border: 1px solid white;
     margin: auto;   
 }
+
+@media screen and (max-width: 441px) {
+    .design__btn {
+        width: 280px;
+    }
+    .design__subtitle {
+        padding-bottom: 55px;
+    }
+}

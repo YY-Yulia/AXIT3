@@ -2,6 +2,7 @@
     width: 1170px;
     margin: auto;
     margin-bottom: 50px;
+    margin-top: 80px;
 }
 .head {
     width: 1170px;
@@ -115,4 +116,121 @@
     width: 486px;
     height: 500px;
     margin-top: 1px;
+}
+
+@media screen and (max-width:1200px) {
+    .tabs {
+        width: 95%;
+        margin-bottom: 50px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .head {
+        width: 855px;
+    }
+    
+    .head__1 {
+        width: 120px;
+    }
+    .head__2 {
+        width: 120px;
+    }
+    .head__3 {
+        width: 120px;
+    }
+    .head__0 {
+        width: 443px;
+    }
+    .conteiner {
+        height: 425px;
+        width: 855px;
+    }
+    .right {
+        width: 410px;
+        height: 425px;
+        margin-left: 20px;
+    
+    }
+    .right__subtitle {
+        width: 400px;
+        font-size: 24px;
+    }
+    .right__text {
+        width: 400px;
+        font-size: 14px;
+    }
+    
+    .right__button {
+        width: 232px;
+        font-size: 14px;
+    }
+    .left {
+        width: 420px;
+        height: 425px;
+    
+    
+    }
+    .left__img {
+        width: 422px;
+        height: 425px;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width:910px) {
+    .tabs {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .left {
+        display: none;
+    }
+    .head__0 {
+        display: none;
+    }
+    .head {
+        display: flex;
+        flex-direction: row;
+        width: 288px;
+    }
+    .head__1 {
+        width: 98px;
+    }
+    .head__2 {
+        width: 98px;
+        margin-left: 0px;
+    }
+    .head__3 {
+        width: 98px;
+    }
+    .conteiner {
+        height: 431px;
+        width: 288px;
+    }
+    .right {
+        width: 288px;
+        height: 431px;
+        margin-left: 20px;
+    
+    }
+    .right__subtitle {
+        width: 243px;
+        height: 112px;
+        font-size: 18px;
+        text-align: center;
+    }
+    .right__text {
+        width: 243px;
+        font-size: 13px;
+        text-align: center;
+    }
+    
+    .right__button {
+        width: 243px;
+        font-size: 18px;
+        text-align: center;
+    }
+
 }
