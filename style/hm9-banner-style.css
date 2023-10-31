@@ -7,12 +7,12 @@
     background-size: cover;
 }
 .banner-wrapper {
+    width: 1170px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: auto;
 }
 .banner-box-logo__ax {
-    padding-left: 170px;
     padding-top: 231px;
     width: 102px;
     height: 55px;
@@ -28,14 +28,12 @@
     font-size: 48px;
     font-weight: 500;
     text-transform: uppercase;
-    margin-left: 170px;
     margin-top: 72.88px;
 }
 .banner-box-separator {
     width: 170px;
     border: .5px solid #ffffff;
     margin-top: 55.12px;
-    margin-left: 170px;
 }
 .banner-box__text {
     width: 270px;
@@ -44,7 +42,6 @@
     font-size: 18px;
     font-weight: 400;
     margin-top: 42px;
-    margin-left: 170px;
 }
 .banner-box__btn {
     color: #FFF;
@@ -60,7 +57,6 @@
     align-items: center;
     background: none;
     border: 2px solid white;
-    margin-left: 170px;
     margin-top: 42px;
 }
 .banner-form {
@@ -92,8 +88,8 @@
     font-size: 24px;
     font-weight: 700;
     text-transform: uppercase;
-    padding-left: 5px;
-    padding-right: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .banner-form-parts {
     display: flex;
@@ -105,7 +101,7 @@
     margin: auto;
 }
 .banner-form-parts__line {
-    padding-top: 33px;
+    margin-top: 33px;
     border: none;
     border-bottom: 1px solid #BDBDBD;
     width: 370px;

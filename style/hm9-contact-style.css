@@ -51,6 +51,8 @@
     border: none;
     border-bottom: 1px solid #BDBDBD;
     resize: none;
+    height: 225px;
+    padding-top: 26px;
 }
 .contact-button__btn {
     display: flex;
